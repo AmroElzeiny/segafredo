@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="styleSheet" href="tabletVersion.css"/>
+         <!-- for font -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+ 
+<style>
+        body{
+        position: relative;
+        width: 768px;
+        height: 100vh;    
+        background: #FFFFFF;
+        margin: auto;
+    }
+    header{
+        position: absolute;
+        width: 768px;
+        height: 98px;
+        background: #F0F3F6;
+    }
+    .mtruck{
+        position: absolute;
+        top: 18px;
+        left: 34px;
+    }
+    .mcart{
+        position: absolute;
+        top: 34px;
+        left: 34px;
+    }
+    .mCService{
+        position: absolute;
+        top: 70px;
+        left: 34px;
+    }
+    .muser{
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 542px;
+        top: 17px;
+    }
+    .mline{
+        position: absolute;
+        left: 605px;
+        top: 22px;
+    }
+    .mheart{
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 624px;
+        top: 17px;
+    }
+    .mcart2{
+        position: absolute;
+        width: 47px;
+        height: 47px;
+        left: 687px;
+        top: 17px;
+    }
+    .mtext1{
+        position: absolute;
+        width: 322px;
+        height: 54px;
+        left: 55px;
+        top: 13px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: uppercase;
+        margin: 0;
+        color: #606060;
+        padding: 0px;
+    }
+    .mtext2{
+        position: absolute;
+        width: 191px;
+        height: 18px;
+        left: 54px;
+        top: 67px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+        text-transform: uppercase;
+        color: #606060;
+        padding: 0px;
+    }
+    .mheader2{
+    position: absolute;
+    width: 768px;
+    height: 100px;
+    left: 0px;
+    top: 98px;
+    background: #303030;
+    }
+    .mlogo{
+        position: absolute;
+        width: 123px;
+        height: 60px;
+        left: 34px;
+        top: 20px;
+        }
+        .msearch{
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 611px;
+            top: 32px;
+        }
+        .mnav{
+            position: absolute;
+            top: 37px;
+            left: 694px;
+            width: 40px;
+            height: 24px;
+        }
+        main{
+            position: absolute;
+            top: 198px;
+            width: 100%;
+            height: 1872px;
+        }
+        .mtext3{
+            position: absolute;
+            top: 42px;
+            left: 34px;
+            right: 34px;
+            width: 702px;
+            height: 88px;
+            margin: 0;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 110%;
+            text-transform: uppercase;
+            color: #333333;
+            z-index: 5;
+        }
+        .mtext3 span{
+            color:  #CB2031;
+        }
+        .mdivpic1{
+            position: absolute;
+            width: 230px;
+            height: 97px;
+            left: 34px;
+            top: 107px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.6;
+            z-index: 2;
+        }
+        .mpic1{
+            position: absolute;
+            top: 111px;
+            left: 34px;
+            width: 220px;
+            height: 291px;
+            z-index: -1;
+        }
+        .mdivpic2{
+            position: absolute;
+            width: 230px;
+            height: 97px;
+            left: 273px;
+            top: 107px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.6;
+            z-index: 2;
+
+        }
+        .mpic2{
+            position: absolute;
+            top: 111px;
+            left: 274px;
+            width: 220px;
+            height: 210px;
+            z-index: -1;
+        }
+        .mdivpic3{
+            position: absolute;
+            width: 220px;
+            height: 97px;
+            left: 514px;
+            top: 107px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.6;
+            z-index: 2;
+
+        }
+        .mpic3{
+            position: absolute;
+            top: 111px;
+            right: 34px;
+            width: 220px;
+            height: 291px;
+            z-index: -1;
+        }
+        .mlineIcon{
+            position: absolute;
+            width: 55px;
+            height: 92px;
+            top: 341px;
+            left: 357px;
+        }
+        .micon1{
+            box-sizing: border-box;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 55px;
+            height: 92px;
+            border: 1px solid #333333;
+            border-radius: 35px;
+        }
+        .mlineTablet{
+            position: absolute;
+            top: 26px;
+            left: 22px;
+            width: 10px;
+            height: 41px;
+        }
+        .mourSolutions{
+            position: absolute;
+            width: 326px;
+            height: 60px;
+            left: 37px;
+            top: 493px;
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 60px;
+            margin: 0;
+            text-transform: uppercase;
+            color: #333333;
+
+        } 
+        .mcafe{
+            position: absolute;
+            top: 573px;
+            left: 37px;
+            width: 220px;
+            height: 72px;
+            background: #333333;
+            margin: 0px;
+        } 
+        .mcafeText{
+            margin: 0px;
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            color: #FFFFFF;
+        }
+        .mcafePic{
+            position: absolute;
+            width: 220px;
+            height: 320px;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        } 
+        .moffice{
+            position: absolute;
+            top: 573px;
+            left: 277px;
+            width: 217px;
+            height: 281px;    
+        }
+        .mofficeText{
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            color: #333333;
+        } 
+        .mofficePic{
+            position: absolute;
+            top: 72px;
+            width: 217px;
+            height: 209px;
+        } 
+        .mowners{
+            width: 220px;
+            height: 77px;
+            position: absolute;
+            top: 573px;
+            left: 514px;
+            background: #333333;
+        }
+        .mownersText{
+            margin: 0px;
+            position: absolute;
+            width: 125px;
+            height: 62px;
+            left: 15px;
+            top: 5px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        } 
+        .mcafePic2{
+            width: 220px;
+            height: 300px;
+            position: absolute;
+            top: 20px;
+            left: 0px;
+            z-index: -1;
+        } 
+        .mshop{
+            margin: 0px;
+            position: absolute;
+            width: 357px;
+            height: 60px;
+            left: 34px;
+            top: 953px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 60px;
+            text-transform: uppercase;
+            color: #333333;
+        } 
+        .mshoptext{
+            margin: 0px;
+            position: absolute;
+            width: 540px;
+            height: 78px;
+            left: 34px;
+            top: 1022px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            color: #333333
+        }
+
+
+
+
+        .mcoffee{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1125px;
+            left: 34px;
+            background: #F8F8F8;
+
+        }
+        .mcoffeetext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 31px;
+            width: 98px;
+            color: #303030;
+
+        }
+        .mcoffeepic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mmachine{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1125px;
+            left: 394px;
+            background: #F8F8F8;
+        }
+        .mmachinetext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 62px;
+            width: 138px;
+            color: #303030;
+        }
+        .mmachinepic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mcafe2{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1336px;
+            left: 34px;
+            background: #F8F8F8;
+
+        }
+        .mcafetext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 124px;
+            width: 108px;
+            color: #303030;
+        }
+        .mcafepic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mvending{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1336px;
+            left: 394px;
+            background: #F8F8F8;
+        }
+        .mvendingtext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 93px;
+            width: 121px;
+            color: #303030;
+        }
+        .mvendingpic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mgrinders{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1547px;
+            left: 34px;
+            background: #F8F8F8;
+        }
+        .mgrinderstext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 62px;
+            width: 131px;
+            color: #303030;
+        }
+        .mgrinderspic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mbialetti{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1547px;
+            left: 394px;
+            background: #F8F8F8;
+        }
+        .mbialettitext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 62px;
+            width: 152px;
+            color: #303030;
+        }
+        .mbialettipic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        .mdivshowmore{
+            margin: 0px;
+            position: absolute;
+            width: 115px;
+            height: 26px;
+            left: 326px;
+            top: 1770px;
+        }
+        .mshowmore{
+            margin: 0px;
+            position: absolute;
+            width: 91px;
+            height: 26px;
+            left: 0px;
+            top: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 145%;
+            text-decoration-line: underline;
+            color: #697178;
+        }
+        .mcursor{
+            position: absolute;
+            width: 12px;
+            height: 5px;
+            right: 0px;
+            top: 13px;
+        }
+
+        
+</style>
+
+        <script>
+            function hover(){
+                document.getElementsByClassName('icon1')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #CB2031)';
+                document.getElementsByClassName('lineTablet')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 red); transform: translate(0px ,20px); transition-duration: 0.3s;';
+        
+            }
+            function unhover(){
+                document.getElementsByClassName('icon1')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #333333)';
+                document.getElementsByClassName('lineTablet')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #333333); transform: translate(0px ,0px) ;transition-duration: 0.3s;';
+        
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        <div class="mediumContainer">
+            <header>
+                <a href="#"><img src="truck.svg" class="truck"></a>
+                <a href="#"><img src="cart-3.svg" class="cart"></a>
+                <a href="#"><img src="customer service.svg" class="CService"></a>
+                <p class="text1">FREE DELIVERY WITH EVERY ORDER OVER $50 <br>SHOWROOM OPEN MONDAY - FRIDAY 8.30AM - 5.00PM <br>CLOSED ON PUBLIC HOLIDAYS</p>
+                <p class="text2">CALL US TOLL FREE: 0800 377 737</p>
+
+                <a href="#"><img class="user" src="circle-user (1).svg"></a>
+                <a href="#"><img class="line" src="Line 26.svg"></a>
+                <a href="#"><img class="heart" src="Group 65.svg"></a>
+                <a href="#"><img class="cart2" src="Group 66 (1).svg"></a> 
+            </header>
+            <div class="header2">
+                <a href="#"><img class="logo" src="segafredo-logo-NZ-white 2.svg"></a>
+                <a href="#"><img src="search.svg" class="search"></a>
+                <a href="#"><img src="Group 19.svg" class="nav"></a>
+            </div>
+            <main>
+                <p class="text3">it’s more than a cup of coffee <br>It’s <span>an experience to be enjoyed</span></p>
+                <div class="divpic1"></div>
+                <img class="pic1" src="mzbi3 1 (1).svg">
+
+                <div class="divpic2"></div>
+                <img class="pic2" src="pic2.svg">
+
+                <div class="divpic3"></div>
+                <img class="pic3" src="h5282001_cof_se_183_v_170707031229_other_06_1200 1.svg">
+
+                <a href="#bottom">
+                <div class="lineIcon">
+                    <a href="#home"><div class="icon1" onmouseover="hover()" onmouseleave="unhover()"></div></a>
+                    <img src="Line 1.svg" class="lineTablet" >
+                </div>
+                </a>
+
+                <p class="ourSolutions">OUR SOLUTIONS</p>
+        
+                <a href="google.com"><div class="cafe">
+                    <p class="cafeText"> CAFE OWNERS</p>
+                    <a href="google.com"><img src="espresso 1 (1).svg" class="cafePic"></a>
+                </div></a>
+
+                <a href="google.com"><div class="office">
+                <p class="officeText"> Office Coffee 
+                    solutions</p>
+                    <img src="nathan-mullet-jhIV4pAwuVY-unsplash (1).svg" class="officePic">
+                </div></a>
+
+
+                <a href="google.com"><div class="owners">
+                    <p class="ownersText">Coffee at Home</p>
+                    <img src="machine-tasse-2-722x743 1 (1).svg" class="cafePic2">
+                </div></a>
+    
+                <p class="shop">SEGAFREDO SHOP</p>
+           
+                <p class="shoptext">Choose your favorite Segafredo products and order them <br>conveniently online from our Shop: 
+                    all the tastefulness of Segafredo<br> Zanetti coffee will come directly to your home!</p>
+
+            <div class="posts">
+                <div class="coffee">
+                    <p class="coffeetext">Coffee</p>
+                    <img src="espresso-intenso 1 (1).svg" class="coffeepic">
+                </div>
+
+                <div class="machine">
+                    <p class="machinetext">Coffee Machines</p>
+                    <img src="dr 1.svg" class="machinepic">
+                </div>
+                
+                <div class="cafe2">
+                    <p class="cafetext">Cafe 
+                        and 
+                        restau-
+                        rant</p>
+                    <img src="carimali-cento-1gr 1.svg" class="cafepic">
+                </div>
+
+                <div class="vending">
+                    <p class="vendingtext">Office 
+                        and 
+                        Vending</p>
+                    <img src="saeco-royal-otc 1.svg" class="vendingpic">
+                </div>
+
+                <div class="grinders">
+                    <p class="grinderstext">Coffee 
+                        Grinders</p>
+                    <img src="eureka-mignon-classico-black 1.svg" class="grinderspic">
+                </div>
+
+                <div class="bialetti">
+                    <p class="bialettitext">Bialetti 
+                        Stovetops</p>
+                    <img src="5266_original_bialetti-musa-espresso-maker 1.svg" class="bialettipic">
+                </div>
+
+                <div class="divshowmore">
+                <p class="showmore">Show More</p>
+                <img class="cursor" src="Vector 21.svg">
+                </div>
+
+            </div>
+            </main>
+        </div>
+    </body>
+</html>

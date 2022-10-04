@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- for font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="mobileVersion.css" />
+
+
+<script>
+    function hover(){
+        document.getElementsByClassName('sicon4')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #CB2031)';
+        document.getElementsByClassName('sicon5')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 red); transform: translate(0px ,20px); transition-duration: 0.3s;';
+
+    }
+    function unhover(){
+        document.getElementsByClassName('sicon4')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #333333)';
+        document.getElementsByClassName('sicon5')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #333333); transform: translate(0px ,0px) ;transition-duration: 0.3s;';
+
+    }
+</script>
+
+    </head>
+
+
+    <body>
+    <div class="smallContainer">
+        <header>
+            <a href="google.com"><img src="circle-user.svg" class="sicon1" ></a>
+            <a href="google.com"><img src="Group 65.svg" class="sicon2"></a>
+            <a href="google.com"><img src="Group 66.svg" class="sicon3"></a>
+        </header>
+        <div class="sheader2">
+            <a href="google.com"><img class="ssegafredoItem" src="segafredo-logo-NZ-white 2.svg"></a>
+            <a href="google.com"><img src="search.svg" class="ssearch"></a>
+            <a href="google.com"><img src="Group 19.svg" class="smenu"></a>
+        </div>
+
+        <main>
+            <p class="smainPara">it’s more than a cup of coffee <br>It’s <span>an experience to be enjoyed</span></p>
+            <img src="mzbi3 1.svg" class="spic1">
+            <img src="segafredo-zanetti-momenti-caffe-bar4-16cc63f1%201.svg" class="spic2">
+            <img src="h5282001_cof_se_183_v_170707031229_other_06_1200 1.svg" class="spic3">
+            <a href="#home"><div class="sicon4" onmouseover="hover()" onmouseleave="unhover()"></div></a>
+            <img src="Line 1.svg" class="sicon5" >
+            <p class="sourSolutions">OUR SOLUTIONS</p>
+        
+            <a href="google.com"><div class="scafe">
+                <p class="scafeText"> CAFE OWNERS</p>
+                <img src="espresso 1.svg" class="scafePic">
+            </div></a>
+
+            <a href="google.com"><p class="sofficeText"> Office Coffee 
+                solutions</p>
+                <img src="nathan-mullet-jhIV4pAwuVY-unsplash.svg" class="sofficePic"></a>
+        
+            <a href="google.com"><div class="sowners">
+                <p class="sownersText">Coffee at Home</p>
+                <img src="machine-tasse-2-722x743 1.svg" class="scafePic">
+            </div></a>
+
+            <p class="sshop">SEGAFREDO SHOP</p>
+            <div class="sshopDiv"><a href="google.com">
+                <p class="scoffeeShop">COFFEE</p>
+                <img src="espresso-intenso 1.svg" class="sshopPic" id="home"></a></div>
+        
+        </main>
+    </div>
+    </body>
+    
+
+</html>

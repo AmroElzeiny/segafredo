@@ -1,0 +1,2441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- for font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobileVersion.css" />
+        <link rel="stylesheet" media="screen and (max-width: 1199px)" href="tabletVersion.css" />
+      
+      <style>
+        .smallContainer{
+                display: none;
+              }
+
+        .mediumContainer{
+            display: none;
+        }
+            /* Small */
+            @media (max-width: 768px) {
+                .smallContainer{
+                    display: block;
+                }
+                .largeContainer{
+                    display: none;
+                }
+                
+            }
+
+
+            /* Medium */
+            @media (min-width: 769px ) and (max-width: 1199px) {
+            .mediumContainer {
+                display: block;
+            }
+            .smallContainer{
+                display: none;
+            }
+            .largeContainer{
+                display: none;
+            }
+            }
+
+
+            /* Large */
+            @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+            }
+            html{
+                scroll-behavior: smooth;
+                padding: auto;
+            }
+            body{
+                max-width: 1440px;
+                height: 4953px;
+                background: #FFFFFF;
+                padding: auto;
+            }
+            
+            .header1{
+                background: #F0F3F5;
+            }
+            .truck{
+                position: absolute;
+                left: 137px;
+                top: 18px;
+                transition-duration: 00.5s;
+                max-width: 12.5px;
+                max-height: 10.94px;
+            }
+            .truck:hover{
+                transform: rotate(-360deg);
+            }
+            .cart{
+                position: absolute;
+                left: 137px;
+                top: 34px;
+                transition-duration: 00.5s;
+
+            }
+            .cart:hover{
+                transform: rotate(-360deg);
+            }
+            .customerservice{
+                position: absolute;
+                top: 16px;
+                left: 508px;
+                transition-duration: 00.5s;
+
+            }
+            .customerservice:hover{
+                transform: rotate(-360deg);
+            }
+            
+            .text1{
+            position: absolute;
+            top: 13px;
+            left: 158px;
+            padding: 0%;
+            margin: 0px;
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;           
+            line-height: 18px;
+            
+            text-transform: uppercase;
+            color: #606060;
+
+            }
+            .text2{
+                position: absolute;
+                top: 13px;
+                left: 528px;
+                padding: 0%;
+                margin: 0px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                /* identical to box height, or 150% */
+
+                text-transform: uppercase;
+
+                color: #606060;
+            }
+            .personal{
+                position: absolute;
+                width: 45px;
+                height: 45px;
+                left: 1116px;
+                top: 17px;
+
+            }
+            .vline{
+                position: absolute;
+                width: 37px;
+                height: 0px;
+                left: 1179px;
+                top: 22px;
+              
+            }
+            .heart{
+                position: absolute;
+                width: 45px;
+                height: 45px;
+                left: 1198px;
+                top: 17px;
+            }
+            .shop{
+                position: absolute;
+                width: 47px;
+                height: 47px;
+                left: 1261px;
+                top: 17px;
+            }
+            .header{
+                top: 80px;
+                position: absolute;
+                width: 1440px;
+                height: 100px;
+                background: #303030;
+                padding: 0%;
+                margin-left: -1%;
+            }
+            .logo{
+                width: 123px;
+                height: 60px;
+                position: absolute;
+                top: 22px;
+                left: 138px;
+            }
+            .menu{
+                padding: 0%;
+                margin: 0px;
+            }
+            .menu1{
+                position: absolute;
+                width: 99px;
+                height: 17px;
+                bottom: 40px;
+                left: 296px;
+                padding: 0%;
+                margin: 0px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+
+                text-transform: uppercase;
+
+                color: #F9F9F9;
+            }
+            .menu2{
+                position: absolute;
+                bottom: 40px;
+                left: 430px;
+                width: 129px;
+                height: 17px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                color: #F9F9F9;
+            }
+            .menu3{
+                position: absolute;
+                bottom: 40px;
+                left: 598px;
+                width: 124px;
+                height: 17px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                color: #F9F9F9;
+            }
+            .menu4{
+                position: absolute;
+                bottom: 40px;
+                left: 752px;
+                width: 140px;
+                height: 17px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                color: #F9F9F9;
+            }
+            .menu5{
+                position: absolute;
+                bottom: 40px;
+                left: 921px;
+                width: 120px;
+                height: 17px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                color: #F9F9F9;
+            }
+            .menu6{
+                position: absolute;
+                bottom: 40px;
+                left: 1080px;
+                width: 50px;
+                height: 17px;
+                
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                color: #F9F9F9;
+
+            }
+            .search{
+                position: absolute;
+                width: 26.25px;
+                height: 26.25px;
+                top: 117.38px;
+                left: 1187.38px;
+                padding: 0%;
+                margin: 0px;
+            }
+            .menuicon{
+                position: absolute;
+                padding: 0%;
+                margin: 0px;
+                width: 40px;
+                height: 24px;
+                top: 118px;
+                left: 1266px;
+            }
+            .mainparagraph{
+                position: absolute;
+                width: 1053px;
+                height: 132px;
+                left: 139px;
+                top: 254px;
+                margin: 0px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 66px;
+                /* or 66px */
+
+                text-transform: uppercase;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+            }
+            .mainparagraph2{
+                color: rgb(178, 36, 36);
+                font-weight: 900;
+            }
+            .pic1{
+                position: absolute;
+                width: 370px;
+                height: 436.13px;
+                left: 135px;
+                top: 353px;
+                
+            }
+            .pic2{
+                position: absolute;
+                width: 370px;
+                height: 325.82px;
+                left: 535px;
+                top: 353px;
+                margin: 0px;
+
+            }
+            .pic3{
+                position: absolute;
+                width: 370px;
+                height: 430px;
+                left: 935px;
+                top: 353px;
+                margin: 0px;
+            }
+            .godown1{
+                box-sizing: border-box;
+                position: absolute;
+                width: 55px;
+                height: 92px;
+                left: 692px;
+                top: 702px;
+                padding: 0%;
+                margin: 0px;
+                border: 1px solid #333333;
+                border-radius: 35px;
+
+            }
+            .godown1:hover{
+                border-color: #CB2031;
+            }
+            .godown2{
+                position: absolute;
+               
+                transition-duration: 0.5s;
+                margin: 0px;
+                padding: 0%;
+                left: 23.09%;
+                padding: 10px;
+                top: 18.26%;
+                width: 370px;
+                height: 101px;
+                                
+            }
+            .godown2:hover{
+                color: #CB2031;
+                filter: opacity(0.4) drop-shadow(0 0 0 red); 
+                margin-top: 20px;
+                scroll-behavior: smooth;
+            }
+            .oursolutions{
+                position: absolute;
+                width: 550px;
+                height: 60px;
+                left: 135px;
+                top: 894px;
+                margin: 0px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 60px;
+                /* identical to box height, or 100% */
+
+                text-transform: uppercase;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+            }
+            .cafe-owners{
+                position: absolute;
+                background: #333333;
+                width: 370px;
+                height: 101px;
+                top: 994px;
+                margin: 0px;
+                left: 135px;
+                transition-duration: 00.5s;
+            }
+            .cafe-owners:hover{
+                background-color: #F5F5F5;
+            }
+            .p-cafe-owners{
+                position: absolute;
+                width: 370px;
+                height: 101px;
+                top: -21px;
+                left: 5.41%;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                /* white */
+
+                color: #FFFFFF;
+                transition-duration: 00.5s;
+
+            }
+            .p-cafe-owners:hover{
+                color: #CB2031;
+            }
+            .cofee-solutions{
+                position: absolute;
+                top: 994px;
+                left: 535px;
+                margin: 0px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                text-transform: uppercase;
+                width: 250px;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+                transition-duration: 00.5s;
+            }
+            .cofee-solutions:hover{
+                color: #CB2031;
+            }
+            .coffee-home{
+                position: absolute;
+                width: 370px;
+                height: 105px;
+                background: #333333;
+                top: 994px;
+                left: 935px;
+                transition-duration: 0.5s;
+            }
+            .coffee-home:hover{
+                background-color: #F5F5F5;
+
+            }
+            .p-coffee-home{
+                position: absolute;
+                left: 5.41%;
+                top: -21px;
+                width: 370px;
+                height: 105px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                /* white */
+
+                color: #FFFFFF;
+                transition-duration: 00.5s;
+            }
+            .p-coffee-home:hover{
+                color: #CB2031;
+            }
+
+            .pic4{
+                position: absolute;
+                left: 135px;
+                top: 1095px;
+                height: 399px;
+                width: 370px;
+            }
+
+            .pic5{
+                position: absolute;
+                top: 1095px;
+                left: 534px;
+                width: 370px;
+
+            }
+
+            .pic6{
+                position: absolute;
+                top: 1095px;
+                left: 935px;
+                height: 399px;
+                width: 370px;
+
+
+            }
+
+
+
+
+            .segafredo-shop{
+                position: absolute;
+                width: 536px;
+                height: 60px;
+                left: 135px;
+                top: 1594px;
+                margin: 0px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 60px;
+                text-transform: uppercase;
+                color: #333333;
+            }
+            .p-segafredo-shop{
+                position: absolute;
+                width: 670px;
+                height: 78px;
+                left: 135px;
+                top: 1674px;
+                
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                
+                color: #333333;
+
+            }
+            .grid{
+                position: absolute;
+                width: 1170px;
+                height: 412px;
+                top: 1782px;
+                left: 135px;
+                margin: 0px;
+                padding: 0%;
+                justify-content: space-between;
+                display: grid;
+                grid-template-columns: 370px 370px 370px;
+                grid-template-rows: 221px;
+                
+            }
+            .element1,
+            .element2,
+            .element3,
+            .element4,
+            .element5,
+            .element6{
+                width: 370px;
+                height: 191px;
+                background: #eee;
+                transition-duration: 00.5s;
+            }
+
+            .element11{
+                position: absolute;
+                top: 0px;
+                left: 150px;
+            }
+            .element22{
+                position: absolute;
+                left: 550px;
+            }
+            .element33{
+                position: absolute;
+                left: 950px;
+            }
+            .element44{
+                position: absolute;
+                left: 130px;
+            }
+            .element55{
+                position: absolute;
+                left: 570px;
+            }
+            .element66{
+                position: absolute;
+                left: 970px;
+            }
+            
+            .p-element1{
+                width: 122px;
+                height: 36px;
+                left: 155px;
+                top: 1802px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                /* identical to box height */
+                padding-left: 20px;
+
+                text-transform: uppercase;
+                transition-duration: 00.5s;
+
+                color: #303030;
+            }
+            .p-element2{
+                width: 159px;
+                height: 72px;
+                left: 555px;
+                top: 1802px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                text-transform: uppercase;
+                padding-left: 20px;
+                transition-duration: 00.5s;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+
+            }
+            .p-element3{
+                width: 125px;
+                height: 144px;
+                left: 955px;
+                top: 1802px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                text-transform: uppercase;
+                padding-left: 20px;
+                transition-duration: 00.5s;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+
+                
+            }
+            .p-element4{
+                width: 139px;
+                height: 108px;
+                left: 155px;
+                top: 2023px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                text-transform: uppercase;
+                padding-left: 20px;
+                transition-duration: 00.5s;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+                
+            }
+            .p-element5{
+                width: 151px;
+                height: 72px;
+                left: 555px;
+                top: 2023px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                text-transform: uppercase;
+                padding-left: 20px;
+                transition-duration: 00.5s;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+
+                
+            }
+            .p-element6{
+                width: 175px;
+                height: 72px;
+                left: 955px;
+                top: 2023px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 36px;
+                text-transform: uppercase;
+                padding-left: 20px;
+                transition-duration: 00.5s;
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+
+            }
+            .element1:hover{
+                background-image: linear-gradient(to right, #2c2a2a78 3%, #3333334e 80%);
+            }
+            .element2:hover{
+                background-image: linear-gradient(to right, #2c2a2a78 3%, #3333334e 80%);
+            }
+            .element3:hover{
+                background-image: linear-gradient(to right, #2c2a2a78 3%, #3333334e 80%);
+            }
+            .element4:hover{
+                background-image: linear-gradient(to right, #2c2a2a78 3%, #3333334e 80%);
+            }
+            .element5:hover{
+                background-image: linear-gradient(to right, #2c2a2a78 3%, #3333334e 80%);
+            }
+            .element6:hover{
+                background-image: linear-gradient(to right, #2c2a2a78 3%, #3333334e 80%);
+            }
+            .showmore{
+                position: absolute;
+                width: 91px;
+                height: 26px;
+                left: 663px;
+                top: 2234px;
+                margin: 0px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 145%;
+                /* or 26px */
+
+                text-decoration-line: underline;
+
+                color: #697178;
+            }
+            .vector{
+                position: absolute;
+                width: 12px;
+                height: 5px;
+                left: 103px;
+                top: 13px;
+                margin: 0px;
+            }
+            .bestseller{
+                position: absolute;
+                width: 530px;
+                height: 60px;
+                left: 135px;
+                top: 2360px;
+                margin: 0px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 60px;
+                /* identical to box height, or 100% */
+
+                text-transform: uppercase;
+
+                /* SEGAFREDO BLACK */
+
+                color: #333333;
+            }
+            .circle1{
+                box-sizing: border-box;
+
+                position: absolute;
+                height: 55px;
+                width: 55px;
+
+                left: 108px;
+                top: 2596px;
+
+                background: #FFFFFF;
+                /* SEGAFREDO BLACK */
+
+                
+            }
+            .line2{
+                position: absolute;
+                left: 122.95px;
+                top: 2620px;
+                transition-duration: 00.5s;
+
+            }
+            .line2:hover{
+                position: absolute;
+                margin: 0%;
+                padding: 0%;
+            }
+            .circle2{
+                box-sizing: border-box;
+                position: absolute;
+                right: 108px;
+                top: 2595px;
+                background: #FFFFFF;
+               
+            }
+            .line3{
+                position: absolute;
+                right: 122.95px;
+                top: 2619px;
+            }
+            .line3:hover{
+                margin-left: 20px;
+                padding-left: 5px;
+            }
+            .item1,
+            .item2,
+            .item3,
+            .item4{
+                position: absolute;
+                width: 270px;
+                height: 320px;
+                background: #f8f8f82c;
+                top: 2463px;
+                display: flex;
+                justify-content: center;
+            }
+            .item1{
+                left: 135px;
+            }
+            .item2{
+                left: 431px;
+
+            }
+            .item3{
+                left: 735px;
+
+            }
+            .item4{
+                left: 1022px;
+            }   
+            .itempic1{
+                position: absolute;
+                top: 0px;
+                margin: 0px;
+            }
+            .itempic2{
+                position: absolute;
+                top: -33px;
+                margin: 0px;
+
+
+            }
+            .itempic3{
+                position: absolute;
+                top: -17px;
+                margin: 0px;
+
+            }
+            .itempic4{
+                position: absolute;
+                top: -9px;
+                margin: 0px;
+
+            }   
+            .coffee-beans{
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+                color: #333333;
+                position: absolute;
+                left: 135px;
+                top: 2813px;
+                width: 270px;
+                height: 26px;
+            }
+            .intermizzo-text{
+                position: absolute;
+                left: 135px;
+                top: 2844px;
+                width: 270px;
+                height: 26px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #333333;
+
+            }
+            .price1{
+                position: absolute;
+                left: 135px;
+                top: 2883px;
+                width: 151px;
+                height: 32px;
+
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 32px;
+                color: #333333;
+            }
+            .coffee-machine{
+                position: absolute;
+                width: 270px;
+                height: 26px;
+                left: 435px;
+                top: 2813px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 145%;
+                /* or 26px */
+                color: #333333;
+            }
+            .dr-coffee{
+                position: absolute;
+                width: 270px;
+                height: 26px;
+                left: 435px;
+                top: 2844px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 145%;
+                /* or 26px */
+                color: #333333;                
+            }
+            .price2{
+                position: absolute;
+                width: 270px;
+                height: 64px;
+                left: 435px;
+                top: 2883px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 145%;
+                /* or 32px */
+                color: #333333;
+                
+            }
+            .ground-coffee{
+                position: absolute;
+                width: 270px;
+                height: 26px;
+                left: 735px;
+                top: 2813px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 145%;
+                color: #333333;
+            }
+            .imozioni{
+                position: absolute;
+                width: 270px;
+                height: 26px;
+                left: 735px;
+                top: 2844px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 145%;
+              
+                color: #333333;
+            }
+            .price3{
+                position: absolute;
+                width: 270px;
+                height: 32px;
+                left: 735px;
+                top: 2883px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 145%;
+            
+                color: #333333;
+            }
+            .ground-coffee2{
+                position: absolute;
+                width: 270px;
+                height: 26px;
+                left: 1035px;
+                top: 2813px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 145%;
+                color: #333333;
+            }
+            .decaf{
+                position: absolute;
+                width: 270px;
+                height: 26px;
+                left: 1035px;
+                top: 2844px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 145%;
+                color: #333333;
+            }
+            .price4{
+                position: absolute;
+                width: 270px;
+                height: 32px;
+                left: 1035px;
+                top: 2883px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 145%;
+                color: #333333;
+            }
+            .shop1{
+                position: absolute;
+                width: 370px;
+                height: 60px;
+                left: 535px;
+                top: 2987px;
+                background: #CB2031;
+                border: none;
+            }
+            .gotoshop{
+
+                position: absolute;
+                width: 111px;
+                height: 26px;
+                left: 135px;
+                top: 20px;
+                margin: 0px;
+                padding: 0%;
+                display: flex;
+                justify-content: center;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 18px;
+                line-height: 145%;
+                
+                text-transform: uppercase;
+                color: #FFFFFF;         
+            }
+            .feedback{
+                top: 3147px;
+                left: 135px;
+
+            }
+            .WhatCustomersSay{
+                position: absolute;
+                width: 726px;
+                height: 120px;
+                left: 135px;
+                top: 3147px;
+
+                margin: 0px 0px 0px 0px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 60px;
+                text-transform: uppercase;
+                color: #333333;
+            }
+            .WhatCustomersSay2{
+                margin: auto;
+            }
+            .feedback1{
+                position: absolute;
+                width: 370px;
+                height: 410px;
+                left: 135px;
+                top: 3307px;
+                background: #333333;
+                margin: 0px;
+            }
+            .feedback2{
+                position: absolute;
+                width: 370px;
+                height: 410px;
+                left: 535px;
+                top: 3307px;
+                background: #333333;
+                margin: 0px;
+            }
+            .feedback3{
+                position: absolute;
+                width: 370px;
+                height: 410px;
+                left: 935px;
+                top: 3307px;
+                background: #333333;
+                margin: 0px;
+            }
+            .iconfeedback{
+                position: absolute;
+                width: 84.34px;
+                height: 64.54px;
+                left: 255px;
+                top: 313px;
+
+            }
+            .stars{
+                position: absolute;
+                top: 43px;
+                left: 230px;
+            }
+            .people{
+                position: absolute;
+                width: 290px;
+                height: 26px;
+                left: 40px;
+                top: 40px;
+                margin: 0px;
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 145%;
+             
+                color: #F9F9F9;
+                }
+                .month3{
+                position: absolute;
+                width: 290px;
+                height: 23px;
+                left: 40px;
+                top: 70px;
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 145%;
+                
+                color: #D9D9D9;
+                }
+                .textforfeedback{
+                    position: absolute;
+                    width: 290px;
+                    height: 184px;
+                    left: 40px;
+                    top: 123px;
+                    margin: 0px;
+
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 145%;
+                    color: #F9F9F9;
+                }
+                .googlereview{
+                    position: absolute;
+                    top: 339px;
+                    left: 40px;
+                    width: 146px;
+                    height: 31px;
+                }
+                .circle3inline{
+                    position: absolute;
+                    top: 3716px;
+                    left: 581px;
+                    margin: 0px;
+                    width: 55px;
+                    height: 55px;
+                }
+                .circle3{
+                    position: absolute;
+                    top: 30px;
+                    left: 0px;
+                }
+                .line4{
+                    position: absolute;
+                    top: 53px;
+                    left: 25%;
+                    margin: 0%;
+                    transition-duration: 0.5s;
+                    margin: 0px;
+                }
+                .line4:hover{
+                    position: absolute;
+                    left: 0%;
+                    margin: 0%;
+                    padding: 0%;
+                }
+                .circle4inline{
+                    position: absolute;
+                    top: 3716px;
+                    left: 804px;
+                    margin: 0px;
+                    width: 55px;
+                    height: 55px;
+                }
+                .circle4{
+                    position: absolute;
+                    top: 30px;
+                    left: 0px;
+                }
+                .line5{
+                    position: absolute;
+                    left: 28.26%;
+                    right: 27.17%;
+                    top: 53px;
+                    margin: 0%;
+                    padding: 0%;
+                    transition-duration: 00.5s;
+                }
+                .line5:hover{
+                    position: absolute;
+                    left: 50%;
+                    margin: 0%;
+                    padding: 0%;
+                }
+                .pointer1{
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    left: 661px;
+                    top: 3765px;
+                }
+                .pointer2{
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    left: 686px;
+                    top: 3765px;
+
+                }
+                .pointer3{
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    left: 711px;
+                    top: 3765px;
+
+                }
+                .pointer4{
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    left: 736px;
+                    top: 3765px;
+
+                }
+                .pointer5{
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    left: 761px;
+                    top: 3765px;
+
+                }
+                .getintouch {
+                    
+                    position: absolute ;
+                    width: 437px; 
+                    height: 60px;
+                    left: 140px;
+                    top: 3902px;
+
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 60px;
+                    line-height: 60px;
+                    text-transform: uppercase;
+                    margin: 0px;
+
+                    color: #CB2031;
+                    z-index: 2;
+                }
+                .form{
+                    position: absolute;
+                    width: 950px;
+                    height: 597px;
+                    left: 135px;
+                    top: 3937px;
+                    background: #F9F9F9;
+                    z-index: 1;
+                }
+                .star{
+                    color: #CB2031;
+                }
+                .name{
+                    position: absolute;
+                    width: 127px;
+                    height: 26px;
+                    left: 60px;
+                    top: 85px;
+
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 145%;
+                    /* or 26px */
+
+
+                    /* SEGAFREDO BLACK */
+
+                    color: #333333;
+
+                }
+                .phone{
+                    position: absolute;
+                    left: 490px;
+                    top: 85px;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 145%;
+                    color: #333333;
+                }
+                .email{
+                    position: absolute;
+                    top: 175px;
+                    left: 60px;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 145%;
+                    /* or 26px */
+
+
+                    /* SEGAFREDO BLACK */
+
+                    color: #333333;
+
+                }
+                .city{
+                    position: absolute;
+                    top: 175px;
+                    left: 490px;
+                    font-family: 'Lato';
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 145%;
+                    /* or 26px */
+
+
+                    /* SEGAFREDO BLACK */
+
+                    color: #333333;
+                }
+                .comment{
+                    position: absolute;
+                    top: 265px;
+                    left: 60px;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 145%;
+                    color: #333333;
+                }
+                .input1{
+                    box-sizing: border-box;
+
+                    position: absolute;
+                    width: 400px;
+                    height: 40px;
+                    left: 60px;
+                    top: 121px;
+
+                    /* white */
+
+                    background: #FFFFFF;
+                    border: 1px solid #ECECEC;
+                    border-radius: 5px;
+
+                }
+                .input2{
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 400px;
+                    height: 40px;
+                    left: 490px;
+                    top: 121px;
+
+                    /* white */
+
+                    background: #FFFFFF;
+                    border: 1px solid #ECECEC;
+                    border-radius: 5px;
+
+                }
+                .input3{
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 400px;
+                    height: 40px;
+                    top: 211px;
+                    left: 60px;
+                    background: #FFFFFF;
+                    border: 1px solid #ECECEC;
+                    border-radius: 5px;
+
+                }
+                .input4{
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 400px;
+                    height: 40px;
+                    top: 211px;
+                    left: 490px;
+                    background: #FFFFFF;
+                    border: 1px solid #ECECEC;
+                    border-radius: 5px;
+
+                }
+                .input5{
+                    box-sizing: border-box;
+                    position: absolute;
+                    width: 830px;
+                    height: 146px;
+                    top: 301px;
+                    left: 60px;
+                    background: #FFFFFF;
+                    border: 1px solid #ECECEC;
+                    border-radius: 5px;
+                }
+                .contactusnow{
+                    position: absolute;
+                    left: 60px;
+                    top: 477px;
+                    width: 370px;
+                    height: 60px;
+
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 145%;
+                    /* or 26px */
+
+                    text-align: center;
+                    text-transform: uppercase;
+
+                    /* white */
+
+                    color: #FFFFFF;
+                    background: #CB2031;
+                    border: 0px;
+                }
+              .footer{
+                position: absolute;
+                width: 1440px;
+                height: 289px;
+                top: 4681px;
+                left: 0px;
+                bottom: 0px;
+                background: #333333;
+                margin: 0px 0px 0px 0px;
+              }
+              .footer1{
+                position: absolute;
+                top: 40px;
+                left: 135px;
+                width: 99px;
+                height: 17px;
+
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+                margin: 0px 0px 0px 0px;
+
+                /* Grey */
+
+                color: #F0F3F6;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                text-decoration: none;
+            }
+              .footer2{
+                position: absolute;
+                top: 77px;
+                left: 135px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+
+                
+width: 129px;
+height: 17px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+              }
+              .footer3{
+                position: absolute;
+                top: 114px;
+                left: 135px;
+                text-decoration: none;
+                width: 117px;
+                margin: 0px 0px 0px 0px;
+
+height: 17px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+              }
+              .footer4{
+                position: absolute;
+                top: 151px;
+                left: 135px;
+                text-decoration: none;
+                width: 149px;
+                margin: 0px 0px 0px 0px;
+
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+              }
+              .footer5{
+                position: absolute;
+                top: 190px;
+                left: 135px;
+                text-decoration: none;
+                width: 126px;
+                margin: 0px 0px 0px 0px;
+
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+
+              }
+              .footer6{
+                position: absolute;
+                top: 229px;
+                left: 135px;
+                text-decoration: none;
+                width: 45px;
+                margin: 0px 0px 0px 0px;
+
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+flex-grow: 0;
+
+              }
+              .footer7{
+                position: absolute;
+                top: 40px;
+                left: 400px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+                width: 110px;
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+
+
+              }
+              .footer8{
+                position: absolute;
+                top: 79px;
+                left: 400px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+                
+width: 130px;
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+              }
+              .footer9{
+                position: absolute;
+                top: 118px;
+                left: 400px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+                width: 70px;
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+              }
+              .footer10{
+                position: absolute;
+                top: 157px;
+                left: 400px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+                width: 50px;
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+              }
+              .footer11{
+                position: absolute;
+                top: 196px;
+                left: 400px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+                width: 90px;
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Grey */
+
+color: #F0F3F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+              }
+              .footer12{
+                position: absolute;
+                top: 40px;
+                left: 627px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+                width: 68px;
+height: 20px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 145%;
+/* or 20px */
+
+text-transform: uppercase;
+
+/* grey */
+
+color: #F9F9F9;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+              }
+              .footer13{
+                position: absolute;
+                top: 200px;
+                left: 968px;
+                text-decoration: none;
+                margin: 0px 0px 0px 0px;
+                position: absolute;
+                width: 400px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+
+/* Grey */
+
+color: #D9D9D9;
+
+
+              }
+              .facebook{
+                position: absolute;
+                width: 19.84px;
+                height: 19.72px;
+                top: 72.83px;
+                left: 628.98px;
+              }
+              .insta{
+                position: absolute;
+                width: 19.52px;
+                height: 19.52px;
+                top: 72.91px;
+                left: 674.3px;
+              }
+              .linkedin{
+                position: absolute;
+                width: 20.55px;
+                height: 20.55px;
+                top: 72.55px;
+                left: 719.68px;
+              }
+              .googleicon{
+                position: absolute;
+                width: 20.11px;
+                height: 20.55px;
+                top: 72.05px;
+                left: 763.4px;
+              }
+              .logo2{
+                position: absolute;
+                width: 123px;
+                height: 60px;
+                top: 40px;
+                left: 1182px;
+              }
+              
+        </style>
+ 
+    </head>
+    <body>
+    <div class="largeContainer">
+        <div class="header1">
+        <div class="truck"><img src="truck.png"></img></div>    
+
+        <div class="cart"><img src="cart-3.png"></img></div>   
+
+        <div class="customerservice"><img src="customerservice.png"></img></div> 
+
+        <p class="text1">FREE DELIVERY WITH EVERY ORDER OVER $50 <br> SHOWROOM OPEN MONDAY - FRIDAY 8.30AM - 5.00PM <br> CLOSED ON PUBLIC HOLIDAYS</p>
+        
+        <p class="text2">CALL US TOLL FREE: 0800 377 737</p>
+        
+        <a href="google.com"><div class="personal"><img src="Group 64.png"></div></a>
+
+        <div class="vline"><img src="Line 26.png"></img></div>
+
+        <a href="google.com"><div class="heart"><img src="Group 65.png"></div></a>
+
+        <a href="google.com"><div class="shop"><img src="Group 66.png"></div></a>
+
+        </div>
+
+
+        <div class="header">
+            <img class="logo" src="segafredo-logo-NZ-white 2.png">
+            <a href="google.com" class="menu"><div class="menu1">HOME COFEE</div></a>
+
+            <a href="google.com" class="menu"><div class="menu2">COFEE MACHINES</div></a>
+
+            <a href="google.com" class="menu"><div class="menu3">CAFE SOLUTIONS</div></a>
+
+            <a href="google.com" class="menu"><div class="menu4">OFFICE SOLUTIONS</div></a>
+
+            <a href="google.com" class="menu"><div class="menu5">SPECIAL OFFERS</div></a>
+
+            <a href="google.com" class="menu"><div class="menu6">SHOP</div></a>
+        </div>
+
+
+        <div class="pics">
+        <img src="mzbi3 1.png" class="pic1">
+
+        <img src="segafredo-zanetti-momenti-caffe-bar4-16cc63f1 1.png" class="pic2">
+
+        <img src="h5282001_cof_se_183_v_170707031229_other_06_1200 1.png" class="pic3">
+        </div>
+
+        <a href="google.com"><div class="search"><img src="search.png"></div></a>
+
+        <a href="google.com"><div class="menuicon"><img src="Group 19.png"></div></a>
+
+        <h1 class="mainparagraph">it’s more than a cup of coffee It’s <span class="mainparagraph2"> an experience to be enjoyed</span></h1>
+       
+        <a href="#oursolutions"><div class="godown1"><div class="godown2"><img src="Line 1.png"></div></div></a>
+       
+        <p class="oursolutions" id="oursolutions">our soltutions</p>
+        
+        <div class="cafe-owners"> <p class="p-cafe-owners">cafe owners</p></div>
+        
+        <p class="cofee-solutions">coffee office solutions</p>
+        
+        <div class="coffee-home"> <p class="p-coffee-home">coffee at home</p></div>
+
+        <img src="espresso 1.png" class="pic4">
+
+        <img src="nathan-mullet-jhIV4pAwuVY-unsplash.png" class="pic5">
+
+        <img src="machine-tasse-2-722x743 1.png" class="pic6">
+
+
+
+        <p class="segafredo-shop">segafredo shop</p>
+
+        <p class="p-segafredo-shop"> Choose your favorite Segafredo products and order them 
+            conveniently online from <br> our Shop: all the tastefulness of Segafredo 
+            Zanetti coffee will come directly to your<br> home!</p>
+
+        <div class="grid">
+
+            <div class="element1"><img src="espresso-intenso 1.png" class="element11"><p class="p-element1">Coffee</p></div>
+
+            <div class="element2"><img class="element22" src="dr 1.png"><p class="p-element2">Coffee Machines</p></div>
+
+            <div class="element3"><img class="element33" src="carimali-cento-1gr 1.png"><p class="p-element3">Cafe and Restau-<br>rant</p></div>
+
+            <div class="element4"><img class="element44" src="saeco-royal-otc 1.png"><p class="p-element4">Office and vending</p></div>
+
+            <div class="element5"><img class="element55" src="eureka-mignon-classico-black 1.png"><p class="p-element5">Coffee Grinders</p></div>
+
+            <div class="element6"><img class="element66" src="5266_original_bialetti-musa-espresso-maker 1.png"><p class="p-element6">Bialetti Stovetops</p></div>
+
+        </div>
+        <div class="showmore">Show More <img src="Vector 21.png" class="vector"> </div>
+
+        
+
+        <p class="bestseller">our bestsellers</p>
+
+        <img class="circle1" src="Rectangle 66.png">
+
+        <img class="line2" src="Line 2.png">
+
+        <img class="circle2" src="Rectangle 66.png">
+
+        <img class="line3" src="Line 3.png">
+
+        <div class="item1"> <img src="intermezzo-500g-e1518124728957 1.png" class="itempic1"> </div>
+
+        <div class="item2"> <img src="dr 2.png" class="itempic2"> </div>
+        
+        <div class="item3"> <img src="emozioni-250g-e1518123706928 1.png" class="itempic3"> </div>
+        
+        <div class="item4"> <img src="decaf-locally-roasted-250gr 1.png" class="itempic4"> </div>
+
+        <p class="coffee-beans">COFFEE BEANS</p>
+
+        <p class="intermizzo-text">Intermezzo Beans 500g</p>
+
+        <p class="price1">$20.00 Inc GST</p>
+
+        <p class="coffee-machine">COFFEE MACHINES</p>
+
+        <p class="dr-coffee">Dr. Coffee Minibars</p>
+
+        <p class="price2">$5,050.00 – $6,050.00 Inc GST</p>
+
+        <p class="ground-coffee">GROUND COFFEE</p>
+
+        <p class="imozioni">Emozioni Ground Coffee 250g</p>
+
+        <p class="price3">$12.50 Inc GST</p>
+        
+        <p class="ground-coffee2">GROUND COFFEE</p>
+
+        <p class="decaf">Decaf Roasted Ground 250gr</p>
+
+        <p class="price4">$9.95 Inc GST</p>
+
+        <a href="google.com"><button class="shop1"><p class="gotoshop">Go To Shop</p></button></a>
+
+        <div class="feedback">
+            <div class="WhatCustomersSay">
+                <p class="WhatCustomersSay2">What Our Customers Are Saying</p>
+            </div>
+            <div class="feedback1">
+                <img src="stars.png" class="stars">
+               <img src="iconfeedback.png" class="iconfeedback">
+               <p class="people">Mark Denekamp</p>
+               <p class="month3">3 months ago</p>
+               <p class="textforfeedback">Resupply of the most delicious house blend beans to give us the best espresso
+                 coffee! No more having to wait in line at carts with the risk of not being able to get the right
+                 shot due to sudden lockdowns! Delivered rapidly in perfect order. Thank you<br> Segafredo Zanetti NZ! </p>
+                <img class="googlereview" src="googlereview.png">    
+            </div>
+
+            <div class="feedback2">
+                <img src="stars.png" class="stars">
+                <img src="iconfeedback.png" class="iconfeedback">
+                <p class="people">Lilian Kyle</p>
+                <p class="month3">Month ago</p>
+                <p class="textforfeedback">ordered my coffee beans online, the website was easy to use, and 
+                    the confirmation of the order came very quickly. The delivery was amazing, I received my 
+                    order the very next day. I was very pleased. </p>
+                    <img class="googlereview" src="googlereview.png">
+            </div>
+            
+            <div class="feedback3">
+                <img src="stars.png" class="stars">
+                <img src="iconfeedback.png" class="iconfeedback">
+                <p class="people">Tim Cox</p>
+                <p class="month3">10 months ago</p>
+                <p class="textforfeedback">I've used Segafredo Zanetti a couple of times now, for parts for an 
+                    old coffee machine, and then for a new coffee machine (Gaggia Besana) when the old one finally
+                     gave up the ghost. their service is always friendly and reasonably priced (old coffee machine
+                      parts are never a bargain)... </p>
+                    <img class="googlereview" src="googlereview.png">
+            </div>
+        </div>
+
+        <div class="circle3inline"><img class="circle3" src="Rectangle 66.png">
+
+        <img class="line4" src="Line 2.png"></div>
+
+        <div class="circle4inline"><img class="circle4" src="Rectangle 66.png">
+
+            <img class="line5" src="Line 3.png"></div>
+
+        <img class="pointer1" src="Ellipse 35.png">
+
+        <img class="pointer2" src="Ellipse 36.png">
+
+        <img class="pointer3" src="Ellipse 36.png">
+
+        <img class="pointer4" src="Ellipse 36.png">
+
+        <img class="pointer5" src="Ellipse 36.png">
+
+        <p class="getintouch">Get in touch!</p>
+
+        <div class="form">
+            <form>
+                <div >
+                    <label class="name">Contact Name <span class="star">*</span></label>
+                    <input type="text" required class="input1">
+                </div>
+
+
+                <div >
+                    <label class="phone"> Phone Number <span class="star">*</span></label>
+                    <input type="text" required class="input2">
+                    
+                </div>
+                
+                <div >
+                    <label class="email">Email <span class="star">*</span></label>
+                    <input type="text" required class="input3">
+
+                </div>
+
+                <div >
+                    <label class="city">City <span class="star">*</span></label>
+                    <input type="text" required class="input4">
+
+                </div>
+
+                <div>
+                    <label  class="comment">Comment <span class="star">*</span></label>
+                    <input type="text" required class="input5">
+
+                </div>   
+
+                <input type="submit" value="CONTACT US NOW!" class="contactusnow">
+            </form>
+
+        </div>
+
+        <div class="footer">
+           
+            <a class="footer1" href="https//www.google.com">HOME COFFEE</a>
+           
+            <a class="footer2" href="https//www.google.com">COFFEE MACHINES</a>
+           
+            <a class="footer3" href="https//www.google.com">Cafe Solutions</a>
+           
+            <a class="footer4" href="https//www.google.com">Office Solutions</a>
+           
+            <a class="footer5" href="https//www.google.com">SPECIAL OFFERS</a>
+           
+            <a class="footer6" href="https//www.google.com">shop</a>
+           
+            <a class="footer7" href="https//www.google.com">Service Centre</a>
+           
+            <a class="footer8" href="https//www.google.com">About Segafredo</a>
+           
+            <a class="footer9" href="https//www.google.com">Reviews</a>
+           
+            <a class="footer10" href="https//www.google.com">News</a>
+           
+            <a class="footer11" href="https//www.google.com">Contact Us</a>
+           
+            <a class="footer12" href="https//www.google.com">Connect</a>
+           
+            <a href="https//www.google.com"><img src="path14.png" class="facebook"></a>
+           
+            <a href="https//www.google.com"><img src="Vector (3).png" class="insta"></a>
+           
+            <a href="https//www.google.com"><img src="Vector (4).png" class="linkedin"></a>
+           
+            <a href="https//www.google.com"><img src="Vector (5).png" class="googleicon"></a>
+           
+            <img src="segafredo-logo-NZ-white 2.png" class="logo2">
+           
+            <a class="footer13" href="https//www.google.com">© Segafredo Zanetti New Zealand <br>
+                1A Arthur Brown Pl Mount Wellington, Auckland 1060<br>
+                Phone: 0800 377 737</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="smallContainer">
+            <header>
+                <a href="google.com"><img src="circle-user.svg" class="sicon1" ></a>
+                <a href="google.com"><img src="Group 65.svg" class="sicon2"></a>
+                <a href="google.com"><img src="Group 66.svg" class="sicon3"></a>
+            </header>
+            <div class="sheader2">
+                <a href="google.com"><img class="ssegafredoItem" src="segafredo-logo-NZ-white 2.svg"></a>
+                <a href="google.com"><img src="search.svg" class="ssearch"></a>
+                <a href="google.com"><img src="Group 19.svg" class="smenu"></a>
+            </div>
+    
+            <main>
+                <p class="smainPara">it’s more than a cup of coffee <br>It’s <span>an experience to be enjoyed</span></p>
+                <img src="mzbi3 1.svg" class="spic1">
+                <img src="segafredo-zanetti-momenti-caffe-bar4-16cc63f1%201.svg" class="spic2">
+                <img src="h5282001_cof_se_183_v_170707031229_other_06_1200 1.svg" class="spic3">
+                <a href="#home"><div class="sicon4" onmouseover="hover()" onmouseleave="unhover()"></div></a>
+                <img src="Line 1.svg" class="sicon5" >
+                <p class="sourSolutions">OUR SOLUTIONS</p>
+            
+                <a href="google.com"><div class="scafe">
+                    <p class="scafeText"> CAFE OWNERS</p>
+                    <img src="espresso 1.svg" class="scafePic">
+                </div></a>
+    
+                <a href="google.com"><p class="sofficeText"> Office Coffee 
+                    solutions</p>
+                    <img src="nathan-mullet-jhIV4pAwuVY-unsplash.svg" class="sofficePic"></a>
+            
+                <a href="google.com"><div class="sowners">
+                    <p class="sownersText">Coffee at Home</p>
+                    <img src="machine-tasse-2-722x743 1.svg" class="scafePic">
+                </div></a>
+    
+                <p class="sshop">SEGAFREDO SHOP</p>
+                <div class="sshopDiv"><a href="google.com">
+                    <p class="scoffeeShop">COFFEE</p>
+                    <img src="espresso-intenso 1.svg" class="sshopPic" id="home"></a></div>
+            
+            </main>
+        </div>
+      
+
+
+
+
+
+
+
+
+
+
+        <script>
+            function hover(){
+                document.getElementsByClassName('icon1')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #CB2031)';
+                document.getElementsByClassName('lineTablet')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 red); transform: translate(0px ,20px); transition-duration: 0.3s;';
+        
+            }
+            function unhover(){
+                document.getElementsByClassName('icon1')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #333333)';
+                document.getElementsByClassName('lineTablet')[0].style = 'filter: opacity(0.4) drop-shadow(0 0 0 #333333); transform: translate(0px ,0px) ;transition-duration: 0.3s;';
+        
+            }
+            
+        </script>
+        <div class="mediumContainer">
+            <header>
+                <a href="#"><img src="truck.svg" class="mtruck"></a>
+                <a href="#"><img src="cart-3.svg" class="mcart"></a>
+                <a href="#"><img src="customer service.svg" class="mCService"></a>
+                <p class="mtext1">FREE DELIVERY WITH EVERY ORDER OVER $50 <br>SHOWROOM OPEN MONDAY - FRIDAY 8.30AM - 5.00PM <br>CLOSED ON PUBLIC HOLIDAYS</p>
+                <p class="mtext2">CALL US TOLL FREE: 0800 377 737</p>
+
+                <a href="#"><img class="muser" src="circle-user (1).svg"></a>
+                <a href="#"><img class="mline" src="Line 26.svg"></a>
+                <a href="#"><img class="mheart" src="Group 65.svg"></a>
+                <a href="#"><img class="mcart2" src="Group 66 (1).svg"></a> 
+            </header>
+            <div class="mheader2">
+                <a href="#"><img class="mlogo" src="segafredo-logo-NZ-white 2.svg"></a>
+                <a href="#"><img src="search.svg" class="msearch"></a>
+                <a href="#"><img src="Group 19.svg" class="mnav"></a>
+            </div>
+            <main>
+                <p class="mtext3">it’s more than a cup of coffee <br>It’s <span>an experience to be enjoyed</span></p>
+                <div class="mdivpic1"></div>
+                <img class="mpic1" src="mzbi3 1 (1).svg">
+
+                <div class="mdivpic2"></div>
+                <img class="mpic2" src="pic2.svg">
+
+                <div class="mdivpic3"></div>
+                <img class="mpic3" src="h5282001_cof_se_183_v_170707031229_other_06_1200 1.svg">
+
+                <a href="#bottom">
+                <div class="mlineIcon">
+                    <a href="#home"><div class="micon1" onmouseover="hover()" onmouseleave="unhover()"></div></a>
+                    <img src="Line 1.svg" class="mlineTablet" >
+                </div>
+                </a>
+
+                <p class="mourSolutions">OUR SOLUTIONS</p>
+        
+                <a href="google.com"><div class="mcafe">
+                    <p class="mcafeText"> CAFE OWNERS</p>
+                    <a href="google.com"><img src="espresso 1 (1).svg" class="mcafePic"></a>
+                </div></a>
+
+                <a href="google.com"><div class="moffice">
+                <p class="mofficeText"> Office Coffee 
+                    solutions</p>
+                    <img src="nathan-mullet-jhIV4pAwuVY-unsplash (1).svg" class="mofficePic">
+                </div></a>
+
+
+                <a href="google.com"><div class="mowners">
+                    <p class="mownersText">Coffee at Home</p>
+                    <img src="machine-tasse-2-722x743 1 (1).svg" class="mcafePic2">
+                </div></a>
+    
+                <p class="mshop">SEGAFREDO SHOP</p>
+           
+                <p class="mshoptext">Choose your favorite Segafredo products and order them <br>conveniently online from our Shop: 
+                    all the tastefulness of Segafredo<br> Zanetti coffee will come directly to your home!</p>
+
+            <div class="mposts">
+                <div class="mcoffee">
+                    <p class="mcoffeetext">Coffee</p>
+                    <img src="espresso-intenso 1 (1).svg" class="mcoffeepic">
+                </div>
+
+                <div class="mmachine">
+                    <p class="mmachinetext">Coffee Machines</p>
+                    <img src="dr 1.svg" class="mmachinepic">
+                </div>
+                
+                <div class="mcafe2">
+                    <p class="mcafetext">Cafe 
+                        and 
+                        restau-
+                        rant</p>
+                    <img src="carimali-cento-1gr 1.svg" class="mcafepic">
+                </div>
+
+                <div class="mvending">
+                    <p class="mvendingtext">Office 
+                        and 
+                        Vending</p>
+                    <img src="saeco-royal-otc 1.svg" class="mvendingpic">
+                </div>
+
+                <div class="mgrinders">
+                    <p class="mgrinderstext">Coffee 
+                        Grinders</p>
+                    <img src="eureka-mignon-classico-black 1.svg" class="mgrinderspic">
+                </div>
+
+                <div class="mbialetti">
+                    <p class="mbialettitext">Bialetti 
+                        Stovetops</p>
+                    <img src="5266_original_bialetti-musa-espresso-maker 1.svg" class="mbialettipic">
+                </div>
+
+                <div class="mdivshowmore">
+                <p class="mshowmore">Show More</p>
+                <img class="mcursor" src="Vector 21.svg">
+                </div>
+
+            </div>
+            </main>
+        </div>
+    </body>
+
+
+
+</html>

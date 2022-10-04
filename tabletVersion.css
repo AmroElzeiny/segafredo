@@ -1,0 +1,585 @@
+    body{
+        position: relative;
+        width: 768px;
+        height: 100%;    
+        background: #FFFFFF;
+        margin: auto;
+    }
+    header{
+        position: absolute;
+        width: 768px;
+        height: 98px;
+        background: #F0F3F6;
+    }
+    .mtruck{
+        position: absolute;
+        top: 18px;
+        left: 34px;
+    }
+    .mcart{
+        position: absolute;
+        top: 34px;
+        left: 34px;
+    }
+    .mCService{
+        position: absolute;
+        top: 70px;
+        left: 34px;
+    }
+    .muser{
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 542px;
+        top: 17px;
+    }
+    .mline{
+        position: absolute;
+        left: 605px;
+        top: 22px;
+    }
+    .mheart{
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 624px;
+        top: 17px;
+    }
+    .mcart2{
+        position: absolute;
+        width: 47px;
+        height: 47px;
+        left: 687px;
+        top: 17px;
+    }
+    .mtext1{
+        position: absolute;
+        width: 322px;
+        height: 54px;
+        left: 55px;
+        top: 13px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: uppercase;
+        margin: 0;
+        color: #606060;
+        padding: 0px;
+    }
+    .mtext2{
+        position: absolute;
+        width: 191px;
+        height: 18px;
+        left: 54px;
+        top: 67px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+        text-transform: uppercase;
+        color: #606060;
+        padding: 0px;
+    }
+    .mheader2{
+    position: absolute;
+    width: 768px;
+    height: 100px;
+    left: 0px;
+    top: 98px;
+    background: #303030;
+    }
+    .mlogo{
+        position: absolute;
+        width: 123px;
+        height: 60px;
+        left: 34px;
+        top: 20px;
+        }
+        .msearch{
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 611px;
+            top: 32px;
+        }
+        .mnav{
+            position: absolute;
+            top: 37px;
+            left: 694px;
+            width: 40px;
+            height: 24px;
+        }
+        main{
+            position: absolute;
+            top: 198px;
+            width: 100%;
+            height: 1872px;
+        }
+        .mtext3{
+            position: absolute;
+            top: 42px;
+            left: 34px;
+            right: 34px;
+            width: 702px;
+            height: 88px;
+            margin: 0;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 110%;
+            text-transform: uppercase;
+            color: #333333;
+            z-index: 5;
+        }
+        .mtext3 span{
+            color:  #CB2031;
+        }
+        .mdivpic1{
+            position: absolute;
+            width: 230px;
+            height: 97px;
+            left: 34px;
+            top: 107px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.6;
+            z-index: 2;
+        }
+        .mpic1{
+            position: absolute;
+            top: 111px;
+            left: 34px;
+            width: 220px;
+            height: 291px;
+            z-index: -1;
+        }
+        .mdivpic2{
+            position: absolute;
+            width: 230px;
+            height: 97px;
+            left: 273px;
+            top: 107px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.6;
+            z-index: 2;
+
+        }
+        .mpic2{
+            position: absolute;
+            top: 111px;
+            left: 274px;
+            width: 220px;
+            height: 210px;
+            z-index: -1;
+        }
+        .mdivpic3{
+            position: absolute;
+            width: 220px;
+            height: 97px;
+            left: 514px;
+            top: 107px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.6;
+            z-index: 2;
+
+        }
+        .mpic3{
+            position: absolute;
+            top: 111px;
+            right: 34px;
+            width: 220px;
+            height: 291px;
+            z-index: -1;
+        }
+        .mlineIcon{
+            position: absolute;
+            width: 55px;
+            height: 92px;
+            top: 341px;
+            left: 357px;
+        }
+        .micon1{
+            box-sizing: border-box;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 55px;
+            height: 92px;
+            border: 1px solid #333333;
+            border-radius: 35px;
+        }
+        .mlineTablet{
+            position: absolute;
+            top: 26px;
+            left: 22px;
+            width: 10px;
+            height: 41px;
+        }
+        .mourSolutions{
+            position: absolute;
+            width: 326px;
+            height: 60px;
+            left: 37px;
+            top: 493px;
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 60px;
+            margin: 0;
+            text-transform: uppercase;
+            color: #333333;
+
+        } 
+        .mcafe{
+            position: absolute;
+            top: 573px;
+            left: 37px;
+            width: 220px;
+            height: 72px;
+            background: #333333;
+            margin: 0px;
+        } 
+        .mcafeText{
+            margin: 0px;
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            color: #FFFFFF;
+        }
+        .mcafePic{
+            position: absolute;
+            width: 220px;
+            height: 320px;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        } 
+        .moffice{
+            position: absolute;
+            top: 573px;
+            left: 277px;
+            width: 217px;
+            height: 281px;    
+        }
+        .mofficeText{
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            color: #333333;
+        } 
+        .mofficePic{
+            position: absolute;
+            top: 72px;
+            width: 217px;
+            height: 209px;
+        } 
+        .mowners{
+            width: 220px;
+            height: 77px;
+            position: absolute;
+            top: 573px;
+            left: 514px;
+            background: #333333;
+        }
+        .mownersText{
+            margin: 0px;
+            position: absolute;
+            width: 125px;
+            height: 62px;
+            left: 15px;
+            top: 5px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        } 
+        .mcafePic2{
+            width: 220px;
+            height: 300px;
+            position: absolute;
+            top: 20px;
+            left: 0px;
+            z-index: -1;
+        } 
+        .mshop{
+            margin: 0px;
+            position: absolute;
+            width: 357px;
+            height: 60px;
+            left: 34px;
+            top: 953px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 60px;
+            text-transform: uppercase;
+            color: #333333;
+        } 
+        .mshoptext{
+            margin: 0px;
+            position: absolute;
+            width: 540px;
+            height: 78px;
+            left: 34px;
+            top: 1022px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 145%;
+            color: #333333
+        }
+
+
+
+
+        .mcoffee{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1125px;
+            left: 34px;
+            background: #F8F8F8;
+
+        }
+        .mcoffeetext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 31px;
+            width: 98px;
+            color: #303030;
+
+        }
+        .mcoffeepic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mmachine{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1125px;
+            left: 394px;
+            background: #F8F8F8;
+        }
+        .mmachinetext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 62px;
+            width: 138px;
+            color: #303030;
+        }
+        .mmachinepic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mcafe2{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1336px;
+            left: 34px;
+            background: #F8F8F8;
+
+        }
+        .mcafetext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 124px;
+            width: 108px;
+            color: #303030;
+        }
+        .mcafepic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mvending{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1336px;
+            left: 394px;
+            background: #F8F8F8;
+        }
+        .mvendingtext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 93px;
+            width: 121px;
+            color: #303030;
+        }
+        .mvendingpic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mgrinders{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1547px;
+            left: 34px;
+            background: #F8F8F8;
+        }
+        .mgrinderstext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 62px;
+            width: 131px;
+            color: #303030;
+        }
+        .mgrinderspic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+
+
+
+        .mbialetti{
+            position: absolute;
+            width: 340px;
+            height: 191px;
+            margin: 0px;
+            top: 1547px;
+            left: 394px;
+            background: #F8F8F8;
+        }
+        .mbialettitext{
+            position: absolute;
+            margin: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 31px;
+            text-transform: uppercase;
+            top: 20px;
+            left: 18.38px;
+            height: 62px;
+            width: 152px;
+            color: #303030;
+        }
+        .mbialettipic{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        .mdivshowmore{
+            margin: 0px;
+            position: absolute;
+            width: 115px;
+            height: 26px;
+            left: 326px;
+            top: 1770px;
+        }
+        .mshowmore{
+            margin: 0px;
+            position: absolute;
+            width: 91px;
+            height: 26px;
+            left: 0px;
+            top: 0px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 145%;
+            text-decoration-line: underline;
+            color: #697178;
+        }
+        .mcursor{
+            position: absolute;
+            width: 12px;
+            height: 5px;
+            right: 0px;
+            top: 13px;
+        }
+
+        

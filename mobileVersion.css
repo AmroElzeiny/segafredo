@@ -1,0 +1,272 @@
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+    margin: auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    transition-timing-function: ease-in;
+    scroll-behavior: smooth;
+
+}
+.sicon1{
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    display: flex;
+}
+.sicon2{
+    position: absolute;
+    top: 13px;
+    left: 261px;
+    display: flex;
+}
+.sicon3{
+    position: absolute;
+    top: 13px;
+    left: 309px;
+    display: flex;
+}
+header{
+    position: absolute;
+    background-color: #F0F3F6;
+    width: 360px;
+    height: 60px;
+}
+.sheader2{
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    top: 60px;
+    background: #303030;
+}
+.ssegafredoItem{
+    position: absolute;
+    top: 10px;
+    left: 18px;
+}
+.ssearch{
+    position: absolute;
+    top: 20.31px;
+    left: 267.31px;
+}
+.smenu{
+    position: absolute;
+    top: 20.78px;
+    left: 311px;
+}
+.smainPara{
+    color: #333333;
+    position: absolute;
+    width: 325px;
+    height: 140px;
+    left: 18px;
+    top: 23px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 110%;
+    margin: 0px;
+    text-transform: uppercase;
+}
+span{
+    color: #CB2031;
+    text-transform: uppercase;
+    
+}
+main{
+    position: absolute;
+    top: 120px;
+    height: 1538px;
+    width: 360px;
+}
+.spic1{
+    position: absolute;
+    top: 182px;
+    left: 18px;
+}
+.spic2{
+    position: absolute;
+    top: 182px;
+    left: 129px;
+}
+.spic3{
+    position: absolute;
+    left: 241px;
+    top: 182px;
+}
+.sicon4{
+    position: absolute;
+    width: 47px;
+    height: 79px;
+    top: 378px;
+    left: 157px;
+    border: 1px solid #333333;
+    border-radius: 35px;
+}
+
+.sicon5{
+    position: absolute;
+    top: 400.33px;
+    left: 178.07px;
+    
+}
+.sourSolutions{
+    position: absolute;
+    top: 507px;
+    left: 18px;
+    margin: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+    width: 261px;
+    text-transform: uppercase;
+
+    /* SEGAFREDO BLACK */
+
+    color: #333333;
+}
+.scafe{
+    position: absolute;
+    top: 560px;
+    left: 18px;
+    width: 325px;
+    height: 158px;
+    background-color: #333333;
+}
+.scafeText{
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    width: 158px;
+    margin: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+
+
+}
+.scafePic{
+    position: absolute;
+    height: 140.86px;
+    width: 325px;
+    top: 58px ;
+}
+.sofficeText{
+    position: absolute;
+    top: 782px;
+    left: 18px;
+    margin: 0px;
+    width: 217px;
+    color: #333333;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+.sofficePic{
+    position: absolute;
+    width: 325px;
+    top: 845.56px;
+    left: 18px;
+
+}
+.sowners{
+    position: absolute;
+    top: 1024px;
+    left: 18px;
+    width: 325px;
+    height: 150px;
+    background-color: #333333;
+}
+.sownersText{
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    margin: 0px;
+    width: 188px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.sownersPic{
+    position: absolute;
+    top: 58px;
+    width: 325px;
+    height: 142px;
+}
+.sshop{
+    position: absolute;
+    width: 286px;
+    height: 32px;
+    left: 18px;
+    top: 1274px;
+    margin: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    text-transform: uppercase;
+
+    /* SEGAFREDO BLACK */
+
+    color: #333333;
+}
+.sshopPic{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+.scoffeeShop{
+    position: absolute;
+    width: 98px;
+    height: 31px;
+    background: #F8F8F8;
+    left: 17.57px;
+    top: 20px;
+    margin: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+
+    color: #303030;
+}
+.sshopDiv{
+    position: absolute;
+    width: 325px;
+    height: 191px;
+    background: #F8F8F8;
+    top: 1326px;
+    left: 18px;
+}
+header, .sheader2, main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
